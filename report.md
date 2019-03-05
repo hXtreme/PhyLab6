@@ -26,7 +26,7 @@ We set-up two coaxial solenoid. with the outer one to setup a time-varying magne
 |Coil 1| diameter =  | 1 |
 |Coil 2| diameter =  | 1 |
 |Coil 3| diameter =  | 1 |
-|Resistors| 2.0 kOhm +-5% | 2 |
+|Resistors| 2.0 kOhm +-5% | 1 |
 |Wires| N/A | N/A |
 
 <!--
