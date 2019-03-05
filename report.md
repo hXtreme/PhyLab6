@@ -57,3 +57,5 @@ Set up the Circuit as shown in the figure below:
 
 ## Analysis
 We compute $m_i = \frac{V_i}{A_i}$
+
+## Conclusion
