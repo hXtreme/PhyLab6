@@ -42,11 +42,11 @@ Set up the Circuit as shown in the figure below:
 -->
 
 ## Measurements
-
+<!--
 ### Coil 1
 |Name|Magnitude|Waveform|Frequency|
 |---|---|---|---|
-|Input Voltage (V_i)|||
+|Input Frequency ()|||
 |Output Voltage (V_o1)||||
 
 ### Coil 2
@@ -59,9 +59,9 @@ Set up the Circuit as shown in the figure below:
 |Name|Magnitude|Waveform|Frequency|
 |---|---|---|---|
 |Input Voltage (V_i)|||
-|Output Voltage (V_o3)||||
+|Output Voltage (V_o3)|||| -->
 
 ## Analysis
-We compute $m_i = \frac{V_i}{A_i}$
+We take the raw data for the induced potential and for each frequency we compute the average absolute potential difference(avgV) and plot avgV v/s frequency.
 
 ## Conclusion
