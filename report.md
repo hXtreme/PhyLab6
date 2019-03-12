@@ -10,24 +10,30 @@ Faraday's Law states that the a changing magnetic field induces an electromotive
 \]
 Where $\mathcal{E}$ is the E.M.F, $\Phi$ is the flux through a single turn of coil and, $N$ is the number of turns in the coil.
 
-We setup two experiments to verify the above. For our first experiment we keep the number of turns and the magnitude of the rate of change of the magnetic field constant. While only changing the cross-sectional area.
+<!-- We setup two experiments to verify the above.  -->
+<!-- For our experiment we keep the number of turns and the magnitude of the rate of change of the magnetic field constant. While only changing the cross-sectional area. -->
+For our experiment we vary the rate of change of magnetic field while keeping everything else constant. And aim to verify that:
+\[
+  |\mathcal{E}| \propto \frac{dB}{dt}
+\]
 
-# Experiment 1
+<!-- # Experiment 1 -->
+
+# Experiment
 
 ## Method
-We set-up two coaxial solenoid. with the outer one to setup a time-varying magnetic field and we measure the potential across inner one. We swap out the inner coil with one with different areas. After collecting the voltage data for $V_o$, we compute $V_o/Area$ for all three coils.
+We set-up two coaxial solenoid. with the outer one to setup a time-varying magnetic field with a time varying potential difference of fixed frequency and we measure the potential across inner one.
+We vary the frequency and take note of the induced potential in the secondary coil. After collecting the voltage data run regression analysis and plot Voltage(induced) v/s Frequency.
 
 ## Apparatus
-|Name|Value|Quantity|
-|:---|---:|---:|
-|Function Generator| N/A | 1 |
-|Oscilloscope| N/A |1|
-|Outer coil| diameter =  | 1 |
-|Coil 1| diameter =  | 1 |
-|Coil 2| diameter =  | 1 |
-|Coil 3| diameter =  | 1 |
-|Resistors| 2.0 kOhm +-5% | 1 |
-|Wires| N/A | N/A |
+|Name|Quantity|
+|:---|---:|
+|Function Generator| 1 |
+|Oscilloscope|1|
+|Primary coil| 1 |
+|Secondary coil| 1 |
+|Iron Core| 1 |
+|Wires | N/A |
 
 <!--
 ## Set-up
