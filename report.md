@@ -4,35 +4,20 @@ _Group: Emmanuel Nwosu, Harsh Parekh, Peter Riera_
 _Section: 04_
 
 ## Introduction
-Faraday's Law states that the a changing magnetic field induces an electromotive force across a conductor in the field. Quantitatively, Faraday's law states that the electromotive force generated in a conductor is given by the rate of change of the magnetic flux through the conductor. In case of a solenoid we derived the following equation:
-\[
-  \mathcal{E} = N\cdot\frac{d\Phi}{dt}
-\]
-Where $\mathcal{E}$ is the E.M.F, $\Phi$ is the flux through a single turn of coil and, $N$ is the number of turns in the coil.
-
-<!-- We setup two experiments to verify the above.  -->
-<!-- For our experiment we keep the number of turns and the magnitude of the rate of change of the magnetic field constant. While only changing the cross-sectional area. -->
-For our experiment we vary the rate of change of magnetic field while keeping everything else constant. And aim to verify that:
-\[
-  |\mathcal{E}| \propto \frac{dB}{dt}
-\]
-
-<!-- # Experiment 1 -->
+We want to test the low-pass nature of an inductor.
 
 # Experiment
 
 ## Method
-We set-up two coaxial solenoid. with the outer one to setup a time-varying magnetic field with a time varying potential difference of fixed frequency and we measure the potential across inner one.
-We vary the frequency and take note of the induced potential in the secondary coil. After collecting the voltage data run regression analysis and plot Voltage(induced) v/s Frequency.
+We set-up a solenoid and apply an alternating voltage. We vary the frequency and take note of the generated magnetic field in the coil. After collecting the data, we plot Relative Magnetic Field Strength(b) v/s Frequency(Hz).
 
 ## Apparatus
 |Name|Quantity|
 |:---|---:|
 |Function Generator| 1 |
-|Oscilloscope|1|
+|Halls Sensor|1|
+|D.A.Q.| 1 |
 |Primary coil| 1 |
-|Secondary coil| 1 |
-|Iron Core| 1 |
 |Wires | N/A |
 
 <!--
@@ -42,26 +27,10 @@ Set up the Circuit as shown in the figure below:
 -->
 
 ## Measurements
-<!--
-### Coil 1
-|Name|Magnitude|Waveform|Frequency|
-|---|---|---|---|
-|Input Frequency ()|||
-|Output Voltage (V_o1)||||
-
-### Coil 2
-|Name|Magnitude|Waveform|Frequency|
-|---|---|---|---|
-|Input Voltage (V_i)|||
-|Output Voltage (V_o2)||||
-
-### Coil 3
-|Name|Magnitude|Waveform|Frequency|
-|---|---|---|---|
-|Input Voltage (V_i)|||
-|Output Voltage (V_o3)|||| -->
+Raw data collected for a frequency <f> is stored in the file Hall/<f>.dat
 
 ## Analysis
-We take the raw data for the induced potential and for each frequency we compute the average absolute potential difference(avgV) and plot avgV v/s frequency.
+The raw data was imported into matlab after which we computed the l1-norms of the normalized input data for each frequency. We plot this relative magnetic field strength against the input frequency.
 
 ## Conclusion
+We observe that the energy stored in the solenoid increases as the frequency is increased. This means that the solenoid stores most of the incoming energy from the current as magnetic energy and transmits less current as the driving frequency is increased. Thereby demonstrating its low-pass nature. 
