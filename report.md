@@ -1,4 +1,4 @@
-# Faraday's Law
+# Faraday's Law (Second Experiment)
 _Group: Emmanuel Nwosu, Harsh Parekh, Peter Riera_
 
 _Section: 04_
@@ -31,6 +31,7 @@ Raw data collected for a frequency <f> is stored in the file Hall/<f>.dat
 
 ## Analysis
 The raw data was imported into matlab after which we computed the l1-norms of the normalized input data for each frequency. We plot this relative magnetic field strength against the input frequency.
+The exact analysis steps are available in: analysis.m
 
 ## Conclusion
-We observe that the energy stored in the solenoid increases as the frequency is increased. This means that the solenoid stores most of the incoming energy from the current as magnetic energy and transmits less current as the driving frequency is increased. Thereby demonstrating its low-pass nature. 
+We observe that the energy stored in the solenoid increases as the frequency is increased. This means that the solenoid stores most of the incoming energy from the current as magnetic energy and transmits less current as the driving frequency is increased. Thereby demonstrating its low-pass nature.
